@@ -4,3 +4,6 @@
 [submodule "puppet/modules/apt"]
 	path = puppet/modules/apt
 	url = https://github.com/puppetlabs/puppetlabs-apt.git
+[submodule "puppet/modules/php"]
+	path = puppet/modules/php
+	url = https://github.com/jippi/puppet-php.git
