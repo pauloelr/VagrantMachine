@@ -7,8 +7,8 @@ For development porpuse only DO NOT use it in production
 
 Webserver access: http://192.168.2.2
 
-PhpMyAdmin access: http://192.168.2.2/phpmyadmin
-phpMyAdmin user: root
+PhpMyAdmin access: http://192.168.2.2/phpmyadmin   
+phpMyAdmin user: root   
 phpMyAdmin password: vagrant
 
 If you need any other password it's probably ```vagrant```
