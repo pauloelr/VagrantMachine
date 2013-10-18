@@ -7,3 +7,6 @@
 [submodule "puppet/modules/php"]
 	path = puppet/modules/php
 	url = https://github.com/jippi/puppet-php.git
+[submodule "puppet/modules/puphpet"]
+	path = puppet/modules/puphpet
+	url = https://github.com/puphpet/puppet-puphpet.git
