@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
     v.customize ["modifyvm", :id, "--nictype2", "virtio"]
     v.customize ["modifyvm", :id, "--nictype3", "virtio"]
     v.customize ["modifyvm", :id, "--memory", 2048]
-    v.customize ["modifyvm", :id, "--name", "VagrantMachineTest"]
+    v.customize ["modifyvm", :id, "--name", "VagrantMachine"]
   end
  
   config.vm.provision :shell, :inline => "sudo apt-get update && sudo apt-get install puppet -y"
