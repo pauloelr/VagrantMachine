@@ -18,7 +18,13 @@ Inspired on PuPHPet (https://puphpet.com/) but highly changed
 Installation
 ------------
 
-Just clone this repository or download the zipball and run:
+clone this repository recursively:
+
+```Shell
+git clone https://github.com/pauloelr/VagrantMachine.git --recursive
+```
+
+get inside the repository directory and run:
 
 ```Shell
 vagrant up
