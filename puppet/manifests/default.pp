@@ -9,7 +9,7 @@ package  {'python-software-properties': ensure  => 'present',}
 package  {'vim': ensure  => 'present',}
 package  {'curl': ensure  => 'present',}
 package  {'git-core': ensure  => 'present',}
-class    {'puphpet::dotfiles':}
+class    {'puphpet::dotfiles': source  => '/vagrant/puppet/files/dot/',}
 apt::ppa {'ppa:ondrej/php5-oldstable':}
 
 file { [ "/etc/php5", "/etc/php5/apache2"]:
